@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#container {
+    display: flex;
+    margin: 20px;
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    min-width: 100px;
+    min-height: 100px;
+    flex-direction: column;
+}
+
+.grid-item {
+    flex: 1;
+}
+
+.grid-row {
+    flex: 1;
+    display: flex;
+}
